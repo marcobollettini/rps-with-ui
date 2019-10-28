@@ -11,15 +11,15 @@ aiScore.textContent = 0;
 
 //scelta random del pc
 
+
 const pcPlay = () => {
     let aiChoices = ['rock', 'paper', 'scissors']
     let result = aiChoices[Math.floor(Math.random() * aiChoices.length)];
     return result;
 }
 
-//selezione del giocatore
 
-
+//selezione del giocatore e svolgimento
 
 
 choices.forEach(choice => {
